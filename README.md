@@ -1,6 +1,6 @@
 # spacemouse_ros
 
-## Installation
+## Installation Instructions
 
 1. **Install libhidapi-dev**:
      ```sh
@@ -31,4 +31,10 @@
      catkin_make
      catkin build
      source devel/setup.bash
+     ```
+
+## Running Instructions
+1. **Start the SpaceMouse Server**:
+     ```sh
+     rosrun spacemouse_ros spacemouse_server.py
      ```
